@@ -56,6 +56,9 @@ main .box {
     border-radius: 10px;
     border: 2px solid white;
 }
+.opt{
+    background-color: black;
+}
 
 .lang .select {
     background-color: transparent;
@@ -74,6 +77,10 @@ main .box {
     height: 25px;
     padding: 5px 3px 5px 13px;
     border-radius: 10px;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color: rgba(255, 0, 0, 0.818);
 }
 
 .nav .btn {
@@ -82,6 +89,10 @@ main .box {
     background-color: red;
     font-size: 17px;
     font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(255, 0, 0, 0.188);
 }
 
 .box-txt {
@@ -135,6 +146,10 @@ input::placeholder {
     border-radius: 25px;
     border: none;
     font-size: 15px;
+    cursor: pointer;
+}
+.mail-sec button:hover{
+    background-color: rgba(255, 0, 0, 0.686);
 }
 
 .partition {
@@ -274,6 +289,10 @@ input::placeholder {
     border-radius: 50px;
     border: none;
     font-size: 15px;
+    cursor: pointer;
+}
+.cont4-mail button:hover{
+    background-color: rgba(255, 0, 0, 0.734);
 }
 
 footer {
